@@ -2,31 +2,29 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title></title>
-  <link rel='stylesheet' href='index.css'>
+  <title>taobaoApp</title>
+  <link rel='stylesheet' href='src/css/reset.css'>
+  <link rel='stylesheet' href='src/css/index.css'>
 </head>
 <body>
   <div id='app'>
     <header>
       <ul>
-        <li class='iconfont'>&#xe631;</li>
-        <li>
-          <span class='iconfont'>&#xe8e0;</span>
-          <input type='text' placeholder='好时巧克力脆皮酱'>
-          <span class='iconfont'>&#xe623;</span>
+        <li class="iconfont">&#xe602;</li>
+        <li class="search-input">
+          <span class="iconfont">&#xe8e0;</span>
+          <input type="text" placeholder="寻找宝贝店铺">
         </li>
-        <li class='iconfont'>&#xe628;</li>
       </ul>
     </header>
+    
     <main>
-      <section>
-        <ul class='carousel-imgs'>
-          <li><a href='#'><img src="images/carousel/1.jpg"></a></li>
+      <section class="part1">
+        <ul class="carousel-imgs">
+          <li><a href="#"><img src="src/images/carousel/1.jpg"></a></li>
         </ul>
-        
         <ul class='carousel-nav'>
-          <li></li>
+          <li class="active"></li>
           <li></li>
           <li></li>
           <li></li>
@@ -36,8 +34,101 @@
           <li></li>
         </ul>
       </section>
+      <section class="part2">
+        <ul class="nav">
+          <li>
+            <a href="#">
+              <img src="src/images/nav/1.png">
+              <span>天猫</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="src/images/nav/2.png">
+              <span>聚划算</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="src/images/nav/3.png">
+              <span>天猫国际</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="src/images/nav/4.png">
+              <span>外卖</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="src/images/nav/5.png">
+              <span>天猫超市</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="src/images/nav/6.png">
+              <span>充值中心</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="src/images/nav/7.png">
+              <span>飞猪旅行</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="src/images/nav/8.png">
+              <span>领金币</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="src/images/nav/9.png">
+              <span>拍卖</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="src/images/nav/10.png">
+              <span>分类</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section  class="part3">
+        <span class="taobao"></span>
+        <span class="title">最新</span>      
+        <span class="explain">营养紧跟，让孩子健康成长</span>
+      </section>
+      <section class="part4">
+       
+      </section>
     </main>
+    
     <footer>
+      <a  href="#" class="nav-link">
+        <li class="iconfont">&#xe629;</li>
+        <span>首页</span>
+      </a>
+      <a  href="#" class="nav-link">
+        <li class="iconfont">&#xe603;</li>
+        <span>物流</span>
+      </a>
+      <a  href="#" class="nav-link">
+        <li class="iconfont">&#xe600;</li>
+        <span>购物车</span>
+      </a>
+      <a  href="#" class="nav-link">
+        <li class="iconfont">&#xe60f;</li>
+        <span>我的淘宝</span>
+      </a>
+      <a  href="#" class="nav-link">
+        <li class="iconfont">&#xe601;</li>
+        <span>更多</span>
+      </a>
     </footer>
   </div>
   
