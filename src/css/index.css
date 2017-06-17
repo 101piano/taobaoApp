@@ -86,24 +86,29 @@ header ul .search-input input {
 main {
   position: relative;
 }
-main .part1 {
+/*main part1*/
+main .part1 .top {
   width: 100%;
-  height: 2rem;
+  height: 2.3rem;
   position: relative;
   background-color: #fff;
 }
-main .part1 img {
-  width: 100%;
-  height: 2rem;
+main .part1 .top .carousel-imgs {
+  width: 100%; 
+  height: 100%;
 }
-main .part1 .carousel-nav {
+main .part1 .top a img {
+  width: 100%;
+  height: 100%;
+}
+main .part1 .top .carousel-nav {
   position: absolute;
   bottom: 0.2rem;
   right: 0.1rem;
   display: -webkit-flex;
   display: flex;
 }
-main .part1 .carousel-nav li {
+main .part1 .top .carousel-nav li {
   width: 0.15rem;
   height: 0.15rem;
   border: 1px solid #ccc;
@@ -111,58 +116,66 @@ main .part1 .carousel-nav li {
   margin: 0 0.05rem;
   background-color: #ccc;
 }
-main .part1 .carousel-nav li.active {
+main .part1 .top .carousel-nav li.active {
   background-color: #fe5400;
 }
 
-
-main .part2 {
+main .part1 .middle {
   width: 100%;
-  height: 3rem;
+  height: 3.5rem;
   position: relative; 
   background-color: #fff;
 }
-main .part2 .nav {
+main .part1 .middle .nav {
   width: 100%;
+  height: 100%;
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-between;
-  margin: 0.2rem 0 0.4rem 0;
+  padding: 0.26rem 0.2rem 0.49rem 0.2rem;
 }
-main .part2 .nav li {
-  width: 18%;
-  padding: 0.1rem;
+main .part1 .middle .nav li {
+  width: 20%;
+  margin: 0 0 0.2rem 0;
 }
-main .part2 .nav a {
+main .part1 .middle .nav a {
   display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
-main .part2 .nav img {
+main .part1 .middle .nav a img {
   width: 100%;
+}
+main .part1 .middle span {
+  color: rgb(102,102,102);
 }
 
-main .part3 {
+main .part1 .bottom {
   width: 100%;
-  height: 0.7rem;
-  border-top: 1px solid rgb(232,232,232);
+  height: 0.8rem;
+  position: relative;
+  border-top: 1px solid rgb(232,232,232);  
+  background-color: #fff;
+}
+main .part1 .bottom ul {
+  width: 100%;
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  background-color: #fff;
 }
-main .part3 .taobao {
+
+main .part1 .bottom .taobao {
   display: block;
   border-right: 1px solid rgb(232,232,232);
   width: 2.1875rem;
-  height: 0.7rem;
-  background: url('../images/part3/1.png')center center/1.61rem 0.45rem no-repeat;
+  height: 0.8rem;
+  background: url('../images/part1/bottom/1.png')center center/1.61rem 0.45rem no-repeat;
 }
-main .part3 .title {
+main .part1 .bottom .title {
   display: block;
   border: 1px solid #da0d15;
   border-radius: 0.125rem;
@@ -171,7 +184,7 @@ main .part3 .title {
   margin: 0.125rem 0.156rem 0.125rem 0.281rem;
   padding: 0 0.0625rem;
 }
-main .part3 .explain {
+main .part1 .bottom .explain {
   display: block;
   font-size: 0.305rem;
   color: rgb(53,53,53);
