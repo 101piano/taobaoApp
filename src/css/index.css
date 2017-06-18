@@ -14,7 +14,7 @@
 }
 
 html {
-  background-color: #fff;
+  background-color: #eee;
   color: #000;
   font-size: 100px;
 }
@@ -27,7 +27,6 @@ body {
 #app {
   max-width: 10rem;
   margin: 0 auto;
-  background-color: #eee;
 }
 
 /*页眉*/
@@ -84,6 +83,11 @@ header ul .search-input input {
 
 /*main*/
 main {
+  position: relative;
+  border: 1px solid #eee;
+}
+main section {
+  margin-bottom: 0.16rem;
   position: relative;
 }
 /*main part1*/
@@ -171,8 +175,8 @@ main .part1 .bottom ul {
 main .part1 .bottom .taobao {
   display: block;
   border-right: 1px solid rgb(232,232,232);
-  width: 2.1875rem;
-  height: 0.8rem;
+  width: 1.8rem;
+  height: 0.7rem;
   background: url('../images/part1/bottom/1.png')center center/1.61rem 0.45rem no-repeat;
 }
 main .part1 .bottom .title {
@@ -180,16 +184,343 @@ main .part1 .bottom .title {
   border: 1px solid #da0d15;
   border-radius: 0.125rem;
   color: #da0d15;
-  font-size: 0.305rem;
+  font-size: 0.25rem;
   margin: 0.125rem 0.156rem 0.125rem 0.281rem;
   padding: 0 0.0625rem;
 }
 main .part1 .bottom .explain {
   display: block;
-  font-size: 0.305rem;
+  font-size: 0.25rem;
   color: rgb(53,53,53);
   text-align: center;
 }
+
+/*main part2*/
+main .part2 {
+  width: 100%;
+  height: 3.8rem;
+  background-color: #fff;
+  display: webkit-flex;
+  display: flex;
+}
+main .part2 .side-left {
+  width: 2.8rem;
+  height: 100%;
+}
+main .part2 .side-left a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../images/part2/1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;  
+}
+main .part2 .side-right {
+  width: 4.6rem;
+  height: 3.8rem;
+  border-left: 1px solid rgb(232,232,232);
+  display: webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .part2 .side-right .child {
+  width: 49%;
+  height: 50%;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .part2 .side-right .child1 { 
+  background-image: url("../images/part2/2.jpg");
+  border-bottom: 1px solid rgb(232,232,232); 
+}
+main .part2 .side-right .child2 {
+  background-image: url("../images/part2/3.png");
+  border-bottom: 1px solid rgb(232,232,232);
+}
+main .part2 .side-right .child3 {
+  background-image: url("../images/part2/4.jpg");
+  border-right: 1px solid rgb(232,232,232);
+}
+main .part2 .side-right .child4 {
+  background-image: url("../images/part2/5.png");
+}
+
+/*main part3*/
+main .part3 {
+  width: 100%;
+  height: 5rem;
+  background-color: #fff;
+}
+main .part3 .header {
+  width: 100%;
+  height: 0.64rem;
+  display: webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(232,232,232);
+}
+main .part3 .header>div {
+  width: 0.4222rem;
+  height: 0.64rem;
+  margin-top: 0.2rem;
+  background-image: url("../images/part3/0.png");
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+main .part3 .header p {
+  line-height: 0.844rem; 
+  color: rgb(255, 53, 14);
+  margin-left: 0.1rem;
+  font-size: 0.3rem;
+}
+main .part3 .main {
+  width: 100%;
+  height: 4.36rem;
+  display: webkit-flex;
+  display: flex;
+}
+main .part3 .side-left {
+  width: 2.8rem;
+  height: 100%;
+}
+main .part3 .side-left .child {
+  width: 2.8rem;
+  height: 50%;
+  display: block;
+  border-bottom: 1px solid rgb(232,232,232);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .part3 .side-left .child1 {
+  background-image: url("../images/part3/1.jpg");
+}
+main .part3 .side-left .child2 {
+  background-image: url("../images/part3/2.png");
+}
+main .part3 .side-right {
+  width: 4.6rem;
+  height: 100%;
+  display: webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .part3 .side-right .child {
+  width: 33.3%;
+  height: 50%;
+  display: block;
+  border-bottom: 1px solid rgb(232,232,232);
+  border-left: 1px solid rgb(232,232,232);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .part3 .side-right .child1 {
+  background-image: url("../images/part3/3.png");
+}
+main .part3 .side-right .child2 {
+  background-image: url("../images/part3/4.png");
+}
+main .part3 .side-right .child3 {
+  background-image: url("../images/part3/5.jpg");
+}
+main .part3 .side-right .child4 {
+  background-image: url("../images/part3/6.jpg");
+}
+main .part3 .side-right .child5 {
+  background-image: url("../images/part3/7.jpg");
+}
+main .part3 .side-right .child6 {
+  background-image: url("../images/part3/8.png");
+}
+
+/*main part4*/
+main .part4 {
+  width: 100%;
+  height: 5.08rem;
+  background-color: #fff;
+}
+main .part4 .header {
+  width: 100%;
+  height: 0.64rem;
+  display: webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(232,232,232);
+}
+main .part4 .header>div {
+  width: 0.4222rem;
+  height: 0.64rem;
+  margin-top: 0.2rem;
+  background-image: url("../images/part4/0.png");
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+main .part4 .header p {
+  line-height: 0.844rem; 
+  color: rgb(255, 53, 14);
+  margin-left: 0.1rem;
+  font-size: 0.3rem;
+}
+main .part4 .main {
+  width: 100%;
+  height: 4.44rem;
+  display: webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+main .part4 .top {
+  width: 100%;
+  height: 50%;
+  display: webkit-flex;
+  display: flex;
+}
+main .part4 .top .child {
+  width: 50%;
+  display: block;
+  border-bottom: 1px solid rgb(232,232,232);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .part4 .top .child1 {
+  background-image: url("../images/part4/1.png");
+  border-right: 1px solid rgb(232,232,232);
+}
+main .part4 .top .child2 {
+  background-image: url("../images/part4/2.png");
+}
+main .part4 .bottom {
+  width: 100%;
+  height: 50%;
+  display: webkit-flex;
+  display: flex;
+}
+main .part4 .bottom .child {
+  width: 25%;
+  height: 100%;
+  display: block;
+  border-right: 1px solid rgb(232,232,232);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+main .part4 .bottom .child1 {
+  background-image: url("../images/part4/3.png");
+}
+main .part4 .bottom .child2 {
+  background-image: url("../images/part4/4.jpg");
+}
+main .part4 .bottom .child3 {
+  background-image: url("../images/part4/5.jpg");
+}
+main .part4 .bottom .child4 {
+  background-image: url("../images/part4/6.jpg");
+  border: none;
+}
+
+/*main part5*/
+main .part5 {
+  width: 100%;
+  height: 7.26rem;
+  background-color: #fff;
+}
+main .part5 .header {
+  width: 100%;
+  height: 0.64rem;
+  display: webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(232,232,232);
+}
+main .part5 .header>div {
+  width: 0.4222rem;
+  height: 0.64rem;
+  margin-top: 0.2rem;
+  background-image: url("../images/part5/0.png");
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+main .part5 .header p {
+  line-height: 0.844rem; 
+  color: rgb(255, 53, 14);
+  margin-left: 0.1rem;
+  font-size: 0.3rem;
+}
+main .part5 .main {
+  width: 100%;
+  height: 4.36rem;
+  display: webkit-flex;
+  display: flex;
+}
+main .part5 .side-left {
+  width: 2.8rem;
+  height: 100%;
+}
+main .part5 .side-left .child {
+  width: 2.8rem;
+  height: 50%;
+  display: block;
+  border-bottom: 1px solid rgb(232,232,232);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .part5 .side-left .child1 {
+  background-image: url("../images/part5/1.png");
+}
+main .part5 .side-left .child2 {
+  background-image: url("../images/part5/2.png");
+}
+main .part5 .side-right {
+  width: 4.6rem;
+  height: 100%;
+  display: webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .part5 .side-right .child {
+  width: 33.3%;
+  height: 50%;
+  display: block;
+  border-bottom: 1px solid rgb(232,232,232);
+  border-left: 1px solid rgb(232,232,232);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .part5 .side-right .child1 {
+  background-image: url("../images/part5/3.png");
+}
+main .part5 .side-right .child2 {
+  background-image: url("../images/part5/4.png");
+}
+main .part5 .side-right .child3 {
+  background-image: url("../images/part5/5.png");
+}
+main .part5 .side-right .child4 {
+  background-image: url("../images/part5/6.png");
+}
+main .part5 .side-right .child5 {
+  background-image: url("../images/part5/7.png");
+}
+main .part5 .side-right .child6 {
+  background-image: url("../images/part5/8.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
