@@ -152,7 +152,7 @@ main .part1 .middle .nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-around;
-  padding: 0.35rem 0.4rem;
+  padding: 0.3rem 0.35rem 0 0.35rem;
 }
 main .part1 .middle .nav li {
   width: 1.65rem;
