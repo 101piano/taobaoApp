@@ -150,9 +150,9 @@ main .part1 .middle .nav {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-betweenr;
   align-content: space-between;
-  padding: 0.35rem 0.5rem 0.85rem 0.5rem;
+  padding: 0.35rem 0.4rem 0.85rem 0.4rem;
 }
 main .part1 .middle .nav li {
   width: 1.71rem;
