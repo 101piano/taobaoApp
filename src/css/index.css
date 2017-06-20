@@ -13,33 +13,24 @@
   font-style:normal; 
 }
 
-html {
-  background-color: #eee;
-  color: #000;
-  font-size: 100px;
-}
-body {
-  font-family: sans-serif;
-  font-size: 0.24rem;
-}
-
 
 #app {
-  max-width: 10rem;
+  width: 100%;
   margin: 0 auto;
+  border: 1px solid #eee; 
 }
 
 /*页眉*/
 header {
   width: 100%; 
+  height: 1.0rem;
   position: relative;
-  height: 0.72rem;
   font-size: 0.4rem;
 }
 
 header ul{
   width: 100%;
-  height: 0.72rem;
+  height: 1.07rem;
   background-color: #fe5400;
   position: fixed;
   top: 0;
@@ -54,13 +45,14 @@ header ul{
 }
 header ul >.iconfont {
   font-family: "iconfont" !important;
-  font-size: 0.4rem;
+  font-size: 0.55rem;
   font-style: normal; 
   color: #fff;
   padding-right: 0.1rem;
 }
 header ul .search-input {
   font-size: 0.4rem;
+  height: 0.67rem;
   border-radius: 0.1rem;
   flex-grow: 1;
   background-color: #b52600;
@@ -69,33 +61,52 @@ header ul .search-input {
 }
 header ul .search-input .iconfont { 
   font-family: "iconfont" !important;
-  font-size: 0.35rem;
+  font-size: 0.45rem;
   font-style: normal; 
   color: #fff;
-  padding-right: 0.2rem;
+  margin: 0.08rem;
 }
 header ul .search-input input {
   background-color: transparent;
   border: none;
   outline: none;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
+  padding: 0.08rem;
+}
+header ul .search-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #f0e0dc; 
+}
+
+header ul .search-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #f0e0dc;
+}
+
+header ul .search-input input:-ms-input-placeholder {
+  color: #f0e0dc;
+}
+
+header ul .search-input input::-webkit-input-placeholder {
+  color: #f0e0dc;
 }
 
 /*main*/
 main {
+  width: 100%;
   position: relative;
-  border: 1px solid #eee;
 }
 main section {
   margin-bottom: 0.16rem;
   position: relative;
 }
 /*main part1*/
+main .part1 {
+  height: 8.72rem;
+  background-color: #fff;
+}
 main .part1 .top {
   width: 100%;
-  height: 2.3rem;
-  position: relative;
-  background-color: #fff;
+  height: 3.14rem;
+  position: relative; 
 }
 main .part1 .top .carousel-imgs {
   width: 100%; 
@@ -126,9 +137,10 @@ main .part1 .top .carousel-nav li.active {
 
 main .part1 .middle {
   width: 100%;
-  height: 3.5rem;
+  height: 4.56rem;
   position: relative; 
   background-color: #fff;
+  font-size: 0.33rem;
 }
 main .part1 .middle .nav {
   width: 100%;
@@ -138,11 +150,12 @@ main .part1 .middle .nav {
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-between;
-  padding: 0.26rem 0.2rem 0.49rem 0.2rem;
+  padding: 0.35rem 0.5rem 0.85rem 0.5rem;
 }
 main .part1 .middle .nav li {
-  width: 20%;
-  margin: 0 0 0.2rem 0;
+  width: 1.71rem;
+  height: 1.17rem;
+  margin: 0 0.025rem;
 }
 main .part1 .middle .nav a {
   display: -webkit-flex;
@@ -160,7 +173,7 @@ main .part1 .middle span {
 
 main .part1 .bottom {
   width: 100%;
-  height: 0.8rem;
+  height: 1.01rem;
   position: relative;
   border-top: 1px solid rgb(232,232,232);  
   background-color: #fff;
@@ -175,8 +188,8 @@ main .part1 .bottom ul {
 main .part1 .bottom .taobao {
   display: block;
   border-right: 1px solid rgb(232,232,232);
-  width: 1.8rem;
-  height: 0.7rem;
+  width: 2.13rem;
+  height: 1.01rem;
   background: url('../images/part1/bottom/1.png')center center/1.61rem 0.45rem no-repeat;
 }
 main .part1 .bottom .title {
@@ -184,13 +197,13 @@ main .part1 .bottom .title {
   border: 1px solid #da0d15;
   border-radius: 0.125rem;
   color: #da0d15;
-  font-size: 0.25rem;
+  font-size: 0.4rem;
   margin: 0.125rem 0.156rem 0.125rem 0.281rem;
   padding: 0 0.0625rem;
 }
 main .part1 .bottom .explain {
   display: block;
-  font-size: 0.25rem;
+  font-size: 0.4rem;
   color: rgb(53,53,53);
   text-align: center;
 }
@@ -198,13 +211,13 @@ main .part1 .bottom .explain {
 /*main part2*/
 main .part2 {
   width: 100%;
-  height: 3.8rem;
+  height: 5.04rem;
   background-color: #fff;
-  display: webkit-flex;
+  display: -webkit-flex;
   display: flex;
 }
 main .part2 .side-left {
-  width: 2.8rem;
+  width: 3.84rem;
   height: 100%;
 }
 main .part2 .side-left a {
@@ -216,15 +229,15 @@ main .part2 .side-left a {
   background-repeat: no-repeat;  
 }
 main .part2 .side-right {
-  width: 4.6rem;
-  height: 3.8rem;
+  width: 6.21rem;
+  height: 5.04rem;
   border-left: 1px solid rgb(232,232,232);
-  display: webkit-flex;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
 }
 main .part2 .side-right .child {
-  width: 49%;
+  width: 50%;
   height: 50%;
   display: block;
   background-size: contain;
@@ -249,13 +262,13 @@ main .part2 .side-right .child4 {
 /*main part3*/
 main .part3 {
   width: 100%;
-  height: 5rem;
+  height: 6.747rem;
   background-color: #fff;
 }
 main .part3 .header {
   width: 100%;
-  height: 0.64rem;
-  display: webkit-flex;
+  height: 0.88rem;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -263,30 +276,30 @@ main .part3 .header {
 }
 main .part3 .header>div {
   width: 0.4222rem;
-  height: 0.64rem;
-  margin-top: 0.2rem;
+  height: 0.88rem;
+  margin-top: 0.45rem;
   background-image: url("../images/part3/0.png");
   background-size: contain;
   background-repeat: no-repeat; 
 }
 main .part3 .header p {
-  line-height: 0.844rem; 
+  line-height: 0.88rem; 
   color: rgb(255, 53, 14);
   margin-left: 0.1rem;
-  font-size: 0.3rem;
+  font-size: 0.4rem;
 }
 main .part3 .main {
   width: 100%;
-  height: 4.36rem;
-  display: webkit-flex;
+  height: 5.867rem;
+  display: -webkit-flex;
   display: flex;
 }
 main .part3 .side-left {
-  width: 2.8rem;
+  width: 3.867rem;
   height: 100%;
 }
 main .part3 .side-left .child {
-  width: 2.8rem;
+  width: 100%;
   height: 50%;
   display: block;
   border-bottom: 1px solid rgb(232,232,232);
@@ -300,9 +313,9 @@ main .part3 .side-left .child2 {
   background-image: url("../images/part3/2.png");
 }
 main .part3 .side-right {
-  width: 4.6rem;
+  width: 6.213rem;
   height: 100%;
-  display: webkit-flex;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -338,13 +351,13 @@ main .part3 .side-right .child6 {
 /*main part4*/
 main .part4 {
   width: 100%;
-  height: 5.08rem;
+  height: 6.747rem;
   background-color: #fff;
 }
 main .part4 .header {
   width: 100%;
-  height: 0.64rem;
-  display: webkit-flex;
+  height: 0.88rem;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,29 +365,29 @@ main .part4 .header {
 }
 main .part4 .header>div {
   width: 0.4222rem;
-  height: 0.64rem;
-  margin-top: 0.2rem;
+  height: 0.88rem;
+  margin-top: 0.45rem;
   background-image: url("../images/part4/0.png");
   background-size: contain;
   background-repeat: no-repeat; 
 }
 main .part4 .header p {
-  line-height: 0.844rem; 
+  line-height: 0.88rem; 
   color: rgb(255, 53, 14);
   margin-left: 0.1rem;
-  font-size: 0.3rem;
+  font-size: 0.4rem;
 }
 main .part4 .main {
   width: 100%;
-  height: 4.44rem;
-  display: webkit-flex;
+  height: 5.867rem;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
 }
 main .part4 .top {
   width: 100%;
   height: 50%;
-  display: webkit-flex;
+  display: -webkit-flex;
   display: flex;
 }
 main .part4 .top .child {
@@ -394,7 +407,7 @@ main .part4 .top .child2 {
 main .part4 .bottom {
   width: 100%;
   height: 50%;
-  display: webkit-flex;
+  display: -webkit-flex;
   display: flex;
 }
 main .part4 .bottom .child {
@@ -423,13 +436,13 @@ main .part4 .bottom .child4 {
 /*main part5*/
 main .part5 {
   width: 100%;
-  height: 7.26rem;
+  height: 9.68rem;
   background-color: #fff;
 }
 main .part5 .header {
   width: 100%;
-  height: 0.64rem;
-  display: webkit-flex;
+  height: 0.88rem;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -437,30 +450,30 @@ main .part5 .header {
 }
 main .part5 .header>div {
   width: 0.4222rem;
-  height: 0.64rem;
-  margin-top: 0.2rem;
+  height: 0.88rem;
+  margin-top: 0.45rem;
   background-image: url("../images/part5/0.png");
   background-size: contain;
   background-repeat: no-repeat; 
 }
 main .part5 .header p {
-  line-height: 0.844rem; 
+  line-height: 0.88rem; 
   color: rgb(255, 53, 14);
   margin-left: 0.1rem;
-  font-size: 0.3rem;
+  font-size: 0.4rem;
 }
 main .part5 .main {
   width: 100%;
-  height: 4.36rem;
-  display: webkit-flex;
+  height: 5.867rem;
+  display: -webkit-flex;
   display: flex;
 }
 main .part5 .side-left {
-  width: 2.8rem;
+  width: 3.867rem;
   height: 100%;
 }
 main .part5 .side-left .child {
-  width: 2.8rem;
+  width: 100%;
   height: 50%;
   display: block;
   border-bottom: 1px solid rgb(232,232,232);
@@ -474,9 +487,9 @@ main .part5 .side-left .child2 {
   background-image: url("../images/part5/2.png");
 }
 main .part5 .side-right {
-  width: 4.6rem;
+  width: 6.213rem;
   height: 100%;
-  display: webkit-flex;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -508,15 +521,142 @@ main .part5 .side-right .child5 {
 main .part5 .side-right .child6 {
   background-image: url("../images/part5/8.png");
 }
+main .part5 .footer {
+  width: 100%;
+  height: 2.933rem;
+}
+main .part5 .footer div:first-child {
+  width: 100%;
+  height: 0.907rem;
+  background-image: url("../images/part5/9.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .part5 .footer div:last-child {
+  width: 100%;
+  height: 2.027rem;
+  background-image: url("../images/part5/10.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
+/*main part6*/
+main .part6 {
+  width: 100%;
+  
+  background-color: #fff;
+}
+main .part6 .header {
+  width: 100%;
+  height: 0.88rem;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(232,232,232);
+}
+main .part6 .header>div {
+  width: 0.4222rem;
+  height: 0.88rem;
+  margin-top: 0.45rem;
+  background-image: url("../images/part6/0.png");
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+main .part6 .header p {
+  line-height: 0.88rem; 
+  color: rgb(255, 53, 14);
+  margin-left: 0.1rem;
+  font-size: 0.4rem;
+}
+main .part6 .header .more {
+  color: #000;
+  float: right;
+}
+main .part6 .header .more span {
+  color: rgb(255, 53, 14); 
+}
+main .part6 .main {
+  width: 100%;
+  height: 11.387rem;
+}
+main .part6 .main .top {
+  height: 2.907rem;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+main .part6 .main .top .child {
+  width: 25%;
+  height: 100%;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgb(232,232,232);
+  border-right: 1px solid rgb(232,232,232);
+}
+main .part6 .top .child1 {
+  background-image: url("../images/part6/1.jpg");
+}
+main .part6 .top .child2 {
+  background-image: url("../images/part6/2.jpg");
+}
+main .part6 .top .child3 {
+  background-image: url("../images/part6/3.jpg");
+}
+main .part6 .top .child4 {
+  background-image: url("../images/part6/4.jpg");
+  border-right: none;
+}
+main .part6 .main .bottom {
+  height: 8.48rem;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .part6 .main .bottom .child {
+  width: 50%;
+  height: 33.3%;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgb(232,232,232);
+  border-right: 1px solid rgb(232,232,232);
+}
+main .part6 .main .bottom .child:nth-child(even) {
+  border-right: none;
+}
+main .part6 .bottom .child1 {
+  background-image: url("../images/part6/5.jpg");
+}
+main .part6 .bottom .child2 {
+  background-image: url("../images/part6/6.jpg");
+}
+main .part6 .bottom .child3 {
+  background-image: url("../images/part6/7.jpg");
+}
+main .part6 .bottom .child4 {
+  background-image: url("../images/part6/8.jpg");
+}
+main .part6 .bottom .child5 {
+  background-image: url("../images/part6/9.jpg");
+}
+main .part6 .bottom .child6 {
+  background-image: url("../images/part6/10.jpg");
+}
+main .part6 .footer {
+  height: 2.027rem;
+  background-image: url("../images/part6/11.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
-
-
-
-
-
-
-
+/*main part7*/
+main .part7 {
+  height: 5.333rem;
+  background-color: #fff;
+}
 
 
 
