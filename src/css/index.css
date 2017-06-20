@@ -544,8 +544,7 @@ main .part5 .footer div:last-child {
 
 /*main part6*/
 main .part6 {
-  width: 100%;
-  
+  width: 100%; 
   background-color: #fff;
 }
 main .part6 .header {
@@ -660,16 +659,16 @@ main .part7 {
   background-color: #fff;
 }
 main .part7 .header {
-  height: 0.933rem;
+  height: 1.01rem;
   border-bottom: 1px solid rgb(232,232,232);
   display: -webkit-flex;
   display: flex;
   justify-content: center;
   color: rgb(34,34,34);
-  font-size: 31px;
+  font-size: 0.45rem;
 }
 main .part7 .header .side-left {
-  width: 0.213rem;
+  width: 0.16rem;
   height: 100%;
   background-color: #ff9b43;
   margin: 0;
@@ -731,7 +730,7 @@ main .part7 .main .side-right>div {
 }
 main .part7 .main .side-left .child1,
 main .part7 .main .side-right .child1 {
-  width: 3.227rem;
+  width: 3.173rem;
   height: 100%;
   margin-right: 0.095rem;  
   background-size: contain;
@@ -746,6 +745,7 @@ main .part7 .main .side-right .child1 {
 main .part7 .main .side-left .child2,
 main .part7 .main .side-right .child2 {
   width: 1.6rem;
+  height: 96%;
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
@@ -766,12 +766,14 @@ main .part7 .main .side-left .child2 .child2-1 {
 }
 main .part7 .main .side-left .child2 .child2-2 {
   background-image: url("../images/part7/3.jpg");
+  margin-top: 0.053rem;
 }
 main .part7 .main .side-right .child2 .child2-1 {
   background-image: url("../images/part7/5.jpg");
 }
 main .part7 .main .side-right .child2 .child2-2 {
   background-image: url("../images/part7/6.jpg");
+  margin-top: 0.053rem;
 }
 main .part7 .footer {
   width: 100%;
@@ -876,30 +878,30 @@ main .part8 .main .key8 {
 /*footer*/
 footer {
   width: 100%;
-  height: 0.8rem;
+  height: 1.6rem;
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 12;
-  font-size: 0.4rem;
+  font-size: 0.45rem;
   background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0.25rem;
   justify-content: space-between;
 }
 footer .nav-link {
-  font-size: 0.2rem;
+  font-size: 0.3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   line-height: 1.3;
+  margin: 0 0.3rem;
 }
 footer .iconfont {
   font-family: "iconfont" !important;
-  font-size: 0.5rem;
+  font-size: 0.55rem;
   font-style: normal; 
   color: #000;
 }
