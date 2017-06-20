@@ -150,14 +150,14 @@ main .part1 .middle .nav {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-betweenr;
-  align-content: space-between;
-  padding: 0.35rem 0.4rem 0.85rem 0.4rem;
+  justify-content: space-between;
+  align-content: space-around;
+  padding: 0.35rem 0.4rem;
 }
 main .part1 .middle .nav li {
-  width: 1.71rem;
-  height: 1.17rem;
-  margin: 0 0.025rem;
+  width: 1.65rem;
+  height: 1.65rem;
+  margin: 0 0.05rem;
 }
 main .part1 .middle .nav a {
   display: -webkit-flex;
