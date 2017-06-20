@@ -92,7 +92,9 @@ header ul .search-input input::-webkit-input-placeholder {
 /*main*/
 main {
   width: 100%;
+  max-width: 10rem;
   position: relative;
+  margin: 0 auto;
 }
 main section {
   margin-bottom: 0.16rem;
@@ -657,20 +659,218 @@ main .part7 {
   height: 5.333rem;
   background-color: #fff;
 }
+main .part7 .header {
+  height: 0.933rem;
+  border-bottom: 1px solid rgb(232,232,232);
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  color: rgb(34,34,34);
+  font-size: 31px;
+}
+main .part7 .header .side-left {
+  width: 0.213rem;
+  height: 100%;
+  background-color: #ff9b43;
+  margin: 0;
+  padding: 0;
+}
+main .part7 .header .side-middle {
+  width: 4.693rem;
+  height: 0.933rem;
+  padding: 0 0 0 0.213rem;
+  line-height: 0.933rem;
+}
+main .part7 .header .side-right {
+  width: 5.04rem;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+main .part7 .header .side-right span {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  color: #fff;
+  background-color: #ff4400;
+  margin: 0 0.213rem;
+  line-height: 0.35rem;
+  font-size: 40px;
+}
+main .part7 .main {
+  width: 100%;
+  font-size: 0.4rem;
+}
+main .part7 .main .side-left,
+main .part7 .main .side-right {
+  width: 4.72rem;
+  height: 3.813rem; 
+}
+main .part7 .main .side-left {
+  float: left;
+  margin: 0.186rem 0 0 0.186rem; 
+}
+main .part7 .main .side-right {
+ float: right;
+ margin: 0.186rem 0.186rem 0 0;
+}
+main .part7 .main::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+main .part7 .main .side-left>div,
+main .part7 .main .side-right>div {
+  width: 100%;
+  height: 3.227rem;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+main .part7 .main .side-left .child1,
+main .part7 .main .side-right .child1 {
+  width: 3.227rem;
+  height: 100%;
+  margin-right: 0.095rem;  
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .part7 .main .side-left .child1 {
+  background-image: url("../images/part7/1.jpg");
+}
+main .part7 .main .side-right .child1 {
+  background-image: url("../images/part7/4.jpg");
+}
+main .part7 .main .side-left .child2,
+main .part7 .main .side-right .child2 {
+  width: 1.6rem;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .part7 .main .side-left .child2 .child2-1,
+main .part7 .main .side-left .child2 .child2-2,
+main .part7 .main .side-right .child2 .child2-1,
+main .part7 .main .side-right .child2 .child2-2 {
+  width: 100%;
+  height: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
+main .part7 .main .side-left .child2 .child2-1 {
+  background-image: url("../images/part7/2.jpg");
+}
+main .part7 .main .side-left .child2 .child2-2 {
+  background-image: url("../images/part7/3.jpg");
+}
+main .part7 .main .side-right .child2 .child2-1 {
+  background-image: url("../images/part7/5.jpg");
+}
+main .part7 .main .side-right .child2 .child2-2 {
+  background-image: url("../images/part7/6.jpg");
+}
+main .part7 .footer {
+  width: 100%;
+  height: 0.426rem;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+main .part7 .footer div {
+  width: 0.267rem;
+  height: 0.267rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 0.1rem 0 0.1rem;
+}
+main .part7 .footer .active {
+  background-color: #ff5501;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*main part8*/
+main .part8 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+main .part8 .header {
+  height: 1.493rem;  
+}
+main .part8 .header .title {
+  width: 100%;
+  height: 0.88rem;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .part8 .header .title>div {
+  width: 0.5222rem;
+  height: 0.98rem;
+  margin-top: 0.45rem;
+  background-image: url("../images/part8/0.png");
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+main .part8 .header .title p {
+  font-size: 0.4rem;
+  margin-left: 0.2rem;
+  font-weight: bold;
+}
+main .part8 .header > p{
+  text-align: center;
+  font-size: 0.35rem;
+}
+main .part8 .main {
+  width: 100%;
+}
+main .part8 .main ul {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .part8 .main ul li {
+  width: 50%;
+  height: 6.667rem; 
+}
+main .part8 .main a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+main .part8 .main .key1 {
+  background-image: url("../images/part8/1.jpg");
+}
+main .part8 .main .key2 {
+  background-image: url("../images/part8/2.jpg");
+}
+main .part8 .main .key3 {
+  background-image: url("../images/part8/3.jpg");
+}
+main .part8 .main .key4 {
+  background-image: url("../images/part8/4.jpg");
+}
+main .part8 .main .key5 {
+  background-image: url("../images/part8/5.jpg");
+}
+main .part8 .main .key6 {
+  background-image: url("../images/part8/6.jpg");
+}
+main .part8 .main .key7 {
+  background-image: url("../images/part8/7.jpg");
+}
+main .part8 .main .key8 {
+  background-image: url("../images/part8/8.jpg");
+}
 
 
 /*footer*/
