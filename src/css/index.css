@@ -844,8 +844,7 @@ main .part8 .main ul li {
 main .part8 .main a {
   display: block;
   width: 100%;
-  height: 100%;
-  
+  height: 100%; 
   background-size: contain;
   background-repeat: no-repeat; 
 }
@@ -872,6 +871,42 @@ main .part8 .main .key7 {
 }
 main .part8 .main .key8 {
   background-image: url("../images/part8/8.jpg");
+}
+main .part8 .main .key9 {
+  background-image: url("../images/part8/9.jpg");
+}
+main .part8 .main .key10 {
+  background-image: url("../images/part8/10.jpg");
+}
+main .part8 .main .key11 {
+  background-image: url("../images/part8/11.jpg");
+}
+main .part8 .main .key12 {
+  background-image: url("../images/part8/12.jpg");
+}
+main .part8 .main .key13 {
+  background-image: url("../images/part8/13.jpg");
+}
+main .part8 .main .key14 {
+  background-image: url("../images/part8/14.jpg");
+}
+main .part8 .main .key15 {
+  background-image: url("../images/part8/15.jpg");
+}
+main .part8 .main .key16 {
+  background-image: url("../images/part8/16.jpg");
+}
+main .part8 .main .key17 {
+  background-image: url("../images/part8/17.jpg");
+}
+main .part8 .main .key18 {
+  background-image: url("../images/part8/18.jpg");
+}
+main .part8 .main .key19 {
+  background-image: url("../images/part8/19.jpg");
+}
+main .part8 .main .key20 {
+  background-image: url("../images/part8/20.jpg");
 }
 
 
