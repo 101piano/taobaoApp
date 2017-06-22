@@ -17,6 +17,7 @@ var Carousel=function(){
        //未复制前的个数
       this.imgNum=carouselImg.children().length;
       this.liWidth=carouselImg.find('li').width();
+      console.log( this.liWidth)
    
       //复制
       var firstImg=this.firstImg=carouselImg.find('li').first(),

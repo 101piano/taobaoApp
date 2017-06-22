@@ -113,15 +113,8 @@ main .part1 .top .carousel-imgs {
   display: -webkit-flex;
   display: flex;
 }
-/*main .part1 .top .carousel-imgs::after {
-  content: '';
-  display: block;
-  clear: both;
-}*/
 main .part1 .top .carousel-imgs li {
-  width: 100%;
-  height: 100%;
- 
+  width: 101%;
 }
 main .part1 .top .carousel-imgs li img {
   height: 100%;
