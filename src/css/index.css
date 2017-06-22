@@ -114,7 +114,7 @@ main .part1 .top .carousel-imgs {
   display: flex;
 }
 main .part1 .top .carousel-imgs li {
-  width: 101%;
+  width: 100%;
 }
 main .part1 .top .carousel-imgs li img {
   height: 100%;

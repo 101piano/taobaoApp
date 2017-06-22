@@ -10349,7 +10349,7 @@ var Carousel=function(){
        //未复制前的个数
       this.imgNum=carouselImg.children().length;
       this.liWidth=carouselImg.find('li').width();
-
+      console.log(this.liWidth)
       //复制
       var firstImg=this.firstImg=carouselImg.find('li').first(),
           lastImg=this.lastImg=carouselImg.find('li').last();
@@ -10445,10 +10445,16 @@ var $=__webpack_require__(0);
 
 var $ = __webpack_require__(0);
 
+
 var Carousel = __webpack_require__(1),
     LazyLoad = __webpack_require__(2);
 
 //首屏轮播
+var clientWidth = document.documentElement.clientWidth;
+$('.carousel-imgs li').each(function(index,item){
+  $(item).css('width',clientWidth);
+})
+console.log($('.carousel-imgs li').width())
 new Carousel($('.part1 .top'));
 
 //图片懒加载
@@ -10458,9 +10464,7 @@ LazyLoad.init($('.lazynode').not('loaded'),function($img){
 });
 function showImg($img){
   var imgUrl = $img.attr('data-src');
-  console.log(imgUrl)
   $img.css('background-image',"url('"+imgUrl+"')");
- // $img.css('background-image','url("src/images/part3/1.jpg")')
   $img.addClass('loaded');
 } 
 
