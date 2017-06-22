@@ -10,6 +10,11 @@ $('.carousel-imgs li').each(function(index,item){
   $(item).css('width',clientWidth);
 })
 console.log($('.carousel-imgs li').width())
+console.log($('.carousel-imgs li').height())
+console.log('----')
+console.log($('.carousel-imgs li img').width())
+console.log($('.carousel-imgs li img').height())
+console.log('----')
 new Carousel($('.part1 .top'));
 
 //图片懒加载

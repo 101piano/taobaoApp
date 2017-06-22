@@ -10350,6 +10350,7 @@ var Carousel=function(){
       this.imgNum=carouselImg.children().length;
       this.liWidth=carouselImg.find('li').width();
       console.log(this.liWidth)
+       console.log(carouselImg.find('li').height())
       //复制
       var firstImg=this.firstImg=carouselImg.find('li').first(),
           lastImg=this.lastImg=carouselImg.find('li').last();
@@ -10455,6 +10456,11 @@ $('.carousel-imgs li').each(function(index,item){
   $(item).css('width',clientWidth);
 })
 console.log($('.carousel-imgs li').width())
+console.log($('.carousel-imgs li').height())
+console.log('----')
+console.log($('.carousel-imgs li img').width())
+console.log($('.carousel-imgs li img').height())
+console.log('----')
 new Carousel($('.part1 .top'));
 
 //图片懒加载

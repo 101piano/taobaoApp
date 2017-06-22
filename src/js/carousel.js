@@ -18,6 +18,7 @@ var Carousel=function(){
       this.imgNum=carouselImg.children().length;
       this.liWidth=carouselImg.find('li').width();
       console.log(this.liWidth)
+       console.log(carouselImg.find('li').height())
       //复制
       var firstImg=this.firstImg=carouselImg.find('li').first(),
           lastImg=this.lastImg=carouselImg.find('li').last();
