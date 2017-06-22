@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/101piano/taobaoApp#readme",
+  "homepage": "https://github.com/101piano/taobaoApp/build",
   "devDependencies": {
     "serve": "^5.2.2",
     "webpack": "^2.6.1",
