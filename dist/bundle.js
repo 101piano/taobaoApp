@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -10398,10 +10398,71 @@ module.exports= Carousel;
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
+var $=__webpack_require__(0);
+  function Exposure($target,callback){
+    this.target=$target,
+    this.callback=callback;
+    this.bind();
+  }
+  Exposure.prototype={
+    bind: function(){
+      var _this=this;
+      $(window).on('scroll',function(){
+       console.log('我滚动了')
+        if(_this.isShow()){
+          _this.callback(_this.target);
+        }        
+      });
+    },
+    isShow:function(){
+      var windowHeight=$(window).height();//窗口高度
+      var scrollTop=$(window).scrollTop();//滚轮高度
+      var offsetTop=this.target.offset().top;//元素距文档高度
+      var nodeHeight=this.target.height();//元素高度
+      if(scrollTop<(offsetTop+nodeHeight) && offsetTop<(windowHeight+scrollTop)){
+        return true;
+      }else {
+        return false;
+      }
+    }   
+  }
+  
+  var LazyLoad=(function(){
+    return {
+      init:function($nodes,callback){
+        $nodes.each(function (index,node){
+          new Exposure($(node),callback);
+        })
+      }   
+    }
+  })();
+    
+  module.exports=LazyLoad;
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var $ = __webpack_require__(0);
-console.log($('.part1 .top'))
-var Carousel = __webpack_require__(1);
+
+var Carousel = __webpack_require__(1),
+    LazyLoad = __webpack_require__(2);
+
+//首屏轮播
 new Carousel($('.part1 .top'));
+
+//图片懒加载
+
+LazyLoad.init($('.lazynode').not('loaded'),function($img){
+  showImg($img);
+});
+function showImg($img){
+  var imgUrl = $img.attr('data-src');
+  console.log(imgUrl)
+  $img.css('background-image',"url('"+imgUrl+"')");
+ // $img.css('background-image','url("src/images/part3/1.jpg")')
+  $img.addClass('loaded');
+} 
 
 
 

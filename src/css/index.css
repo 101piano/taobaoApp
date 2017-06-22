@@ -316,12 +316,6 @@ main .part3 .side-left .child {
   background-size: contain;
   background-repeat: no-repeat;
 }
-main .part3 .side-left .child1 {
-  background-image: url("../images/part3/1.jpg");
-}
-main .part3 .side-left .child2 {
-  background-image: url("../images/part3/2.png");
-}
 main .part3 .side-right {
   width: 6.213rem;
   height: 100%;
@@ -338,24 +332,6 @@ main .part3 .side-right .child {
   border-left: 1px solid rgb(232,232,232);
   background-size: contain;
   background-repeat: no-repeat;
-}
-main .part3 .side-right .child1 {
-  background-image: url("../images/part3/3.png");
-}
-main .part3 .side-right .child2 {
-  background-image: url("../images/part3/4.png");
-}
-main .part3 .side-right .child3 {
-  background-image: url("../images/part3/5.jpg");
-}
-main .part3 .side-right .child4 {
-  background-image: url("../images/part3/6.jpg");
-}
-main .part3 .side-right .child5 {
-  background-image: url("../images/part3/7.jpg");
-}
-main .part3 .side-right .child6 {
-  background-image: url("../images/part3/8.png");
 }
 
 /*main part4*/
@@ -377,7 +353,6 @@ main .part4 .header>div {
   width: 0.4222rem;
   height: 0.88rem;
   margin-top: 0.45rem;
-  background-image: url("../images/part4/0.png");
   background-size: contain;
   background-repeat: no-repeat; 
 }
@@ -408,11 +383,7 @@ main .part4 .top .child {
   background-repeat: no-repeat;
 }
 main .part4 .top .child1 {
-  background-image: url("../images/part4/1.png");
   border-right: 1px solid rgb(232,232,232);
-}
-main .part4 .top .child2 {
-  background-image: url("../images/part4/2.png");
 }
 main .part4 .bottom {
   width: 100%;
@@ -428,18 +399,7 @@ main .part4 .bottom .child {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-main .part4 .bottom .child1 {
-  background-image: url("../images/part4/3.png");
-}
-main .part4 .bottom .child2 {
-  background-image: url("../images/part4/4.jpg");
-}
-main .part4 .bottom .child3 {
-  background-image: url("../images/part4/5.jpg");
-}
 main .part4 .bottom .child4 {
-  background-image: url("../images/part4/6.jpg");
   border: none;
 }
 
@@ -462,7 +422,6 @@ main .part5 .header>div {
   width: 0.4222rem;
   height: 0.88rem;
   margin-top: 0.45rem;
-  background-image: url("../images/part5/0.png");
   background-size: contain;
   background-repeat: no-repeat; 
 }
@@ -490,12 +449,6 @@ main .part5 .side-left .child {
   background-size: contain;
   background-repeat: no-repeat;
 }
-main .part5 .side-left .child1 {
-  background-image: url("../images/part5/1.png");
-}
-main .part5 .side-left .child2 {
-  background-image: url("../images/part5/2.png");
-}
 main .part5 .side-right {
   width: 6.213rem;
   height: 100%;
@@ -513,24 +466,6 @@ main .part5 .side-right .child {
   background-size: contain;
   background-repeat: no-repeat;
 }
-main .part5 .side-right .child1 {
-  background-image: url("../images/part5/3.png");
-}
-main .part5 .side-right .child2 {
-  background-image: url("../images/part5/4.png");
-}
-main .part5 .side-right .child3 {
-  background-image: url("../images/part5/5.png");
-}
-main .part5 .side-right .child4 {
-  background-image: url("../images/part5/6.png");
-}
-main .part5 .side-right .child5 {
-  background-image: url("../images/part5/7.png");
-}
-main .part5 .side-right .child6 {
-  background-image: url("../images/part5/8.png");
-}
 main .part5 .footer {
   width: 100%;
   height: 2.933rem;
@@ -538,14 +473,12 @@ main .part5 .footer {
 main .part5 .footer div:first-child {
   width: 100%;
   height: 0.907rem;
-  background-image: url("../images/part5/9.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 main .part5 .footer div:last-child {
   width: 100%;
   height: 2.027rem;
-  background-image: url("../images/part5/10.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -568,7 +501,6 @@ main .part6 .header>div {
   width: 0.4222rem;
   height: 0.88rem;
   margin-top: 0.45rem;
-  background-image: url("../images/part6/0.png");
   background-size: contain;
   background-repeat: no-repeat; 
 }
@@ -604,17 +536,7 @@ main .part6 .main .top .child {
   border-bottom: 1px solid rgb(232,232,232);
   border-right: 1px solid rgb(232,232,232);
 }
-main .part6 .top .child1 {
-  background-image: url("../images/part6/1.jpg");
-}
-main .part6 .top .child2 {
-  background-image: url("../images/part6/2.jpg");
-}
-main .part6 .top .child3 {
-  background-image: url("../images/part6/3.jpg");
-}
 main .part6 .top .child4 {
-  background-image: url("../images/part6/4.jpg");
   border-right: none;
 }
 main .part6 .main .bottom {
@@ -636,27 +558,8 @@ main .part6 .main .bottom .child {
 main .part6 .main .bottom .child:nth-child(even) {
   border-right: none;
 }
-main .part6 .bottom .child1 {
-  background-image: url("../images/part6/5.jpg");
-}
-main .part6 .bottom .child2 {
-  background-image: url("../images/part6/6.jpg");
-}
-main .part6 .bottom .child3 {
-  background-image: url("../images/part6/7.jpg");
-}
-main .part6 .bottom .child4 {
-  background-image: url("../images/part6/8.jpg");
-}
-main .part6 .bottom .child5 {
-  background-image: url("../images/part6/9.jpg");
-}
-main .part6 .bottom .child6 {
-  background-image: url("../images/part6/10.jpg");
-}
 main .part6 .footer {
   height: 2.027rem;
-  background-image: url("../images/part6/11.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -744,12 +647,6 @@ main .part7 .main .side-right .child1 {
   background-size: contain;
   background-repeat: no-repeat;
 }
-main .part7 .main .side-left .child1 {
-  background-image: url("../images/part7/1.jpg");
-}
-main .part7 .main .side-right .child1 {
-  background-image: url("../images/part7/4.jpg");
-}
 main .part7 .main .side-left .child2,
 main .part7 .main .side-right .child2 {
   width: 1.6rem;
@@ -768,19 +665,7 @@ main .part7 .main .side-right .child2 .child2-2 {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-main .part7 .main .side-left .child2 .child2-1 {
-  background-image: url("../images/part7/2.jpg");
-}
-main .part7 .main .side-left .child2 .child2-2 {
-  background-image: url("../images/part7/3.jpg");
-  margin-top: 0.053rem;
-}
-main .part7 .main .side-right .child2 .child2-1 {
-  background-image: url("../images/part7/5.jpg");
-}
 main .part7 .main .side-right .child2 .child2-2 {
-  background-image: url("../images/part7/6.jpg");
   margin-top: 0.053rem;
 }
 main .part7 .footer {
@@ -822,7 +707,6 @@ main .part8 .header .title>div {
   width: 0.5222rem;
   height: 0.98rem;
   margin-top: 0.45rem;
-  background-image: url("../images/part8/0.png");
   background-size: contain;
   background-repeat: no-repeat; 
 }
@@ -856,67 +740,6 @@ main .part8 .main a {
   background-size: contain;
   background-repeat: no-repeat; 
 }
-main .part8 .main .key1 {
-  background-image: url("../images/part8/1.jpg");
-}
-main .part8 .main .key2 {
-  background-image: url("../images/part8/2.jpg");
-}
-main .part8 .main .key3 {
-  background-image: url("../images/part8/3.jpg");
-}
-main .part8 .main .key4 {
-  background-image: url("../images/part8/4.jpg");
-}
-main .part8 .main .key5 {
-  background-image: url("../images/part8/5.jpg");
-}
-main .part8 .main .key6 {
-  background-image: url("../images/part8/6.jpg");
-}
-main .part8 .main .key7 {
-  background-image: url("../images/part8/7.jpg");
-}
-main .part8 .main .key8 {
-  background-image: url("../images/part8/8.jpg");
-}
-main .part8 .main .key9 {
-  background-image: url("../images/part8/9.jpg");
-}
-main .part8 .main .key10 {
-  background-image: url("../images/part8/10.jpg");
-}
-main .part8 .main .key11 {
-  background-image: url("../images/part8/11.jpg");
-}
-main .part8 .main .key12 {
-  background-image: url("../images/part8/12.jpg");
-}
-main .part8 .main .key13 {
-  background-image: url("../images/part8/13.jpg");
-}
-main .part8 .main .key14 {
-  background-image: url("../images/part8/14.jpg");
-}
-main .part8 .main .key15 {
-  background-image: url("../images/part8/15.jpg");
-}
-main .part8 .main .key16 {
-  background-image: url("../images/part8/16.jpg");
-}
-main .part8 .main .key17 {
-  background-image: url("../images/part8/17.jpg");
-}
-main .part8 .main .key18 {
-  background-image: url("../images/part8/18.jpg");
-}
-main .part8 .main .key19 {
-  background-image: url("../images/part8/19.jpg");
-}
-main .part8 .main .key20 {
-  background-image: url("../images/part8/20.jpg");
-}
-
 
 /*footer*/
 footer {
