@@ -123,8 +123,9 @@ main .part1 .top .carousel-imgs li {
 }
 
 main .part1 .top .carousel-imgs li img {
-  height: 100%;
   width: 100%;
+  height: 100%;
+  
 }
 main .part1 .top .carousel-nav {
   position: absolute;

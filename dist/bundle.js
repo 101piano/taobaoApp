@@ -10349,8 +10349,7 @@ var Carousel=function(){
        //未复制前的个数
       this.imgNum=carouselImg.children().length;
       this.liWidth=carouselImg.find('li').width();
-      console.log(this.liWidth)
-       console.log(carouselImg.find('li').height())
+    
       //复制
       var firstImg=this.firstImg=carouselImg.find('li').first(),
           lastImg=this.lastImg=carouselImg.find('li').last();
@@ -10451,16 +10450,11 @@ var Carousel = __webpack_require__(1),
     LazyLoad = __webpack_require__(2);
 
 //首屏轮播
-var clientWidth = document.documentElement.clientWidth;
+
+var mainWidth = $('.main').width()
 $('.carousel-imgs li').each(function(index,item){
-  $(item).css('width',clientWidth);
+  $(item).css('width',mainWidth);
 })
-console.log($('.carousel-imgs li').width())
-console.log($('.carousel-imgs li').height())
-console.log('----')
-console.log($('.carousel-imgs li img').width())
-console.log($('.carousel-imgs li img').height())
-console.log('----')
 new Carousel($('.part1 .top'));
 
 //图片懒加载
