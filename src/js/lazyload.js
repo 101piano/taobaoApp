@@ -8,7 +8,7 @@ var $=require('jquery');
     bind: function(){
       var _this=this;
       $(window).on('scroll',function(){
-       console.log('我滚动了')
+
         if(_this.isShow()){
           _this.callback(_this.target);
         }        

@@ -10349,8 +10349,7 @@ var Carousel=function(){
        //未复制前的个数
       this.imgNum=carouselImg.children().length;
       this.liWidth=carouselImg.find('li').width();
-      console.log( this.liWidth)
-   
+
       //复制
       var firstImg=this.firstImg=carouselImg.find('li').first(),
           lastImg=this.lastImg=carouselImg.find('li').last();
@@ -10409,7 +10408,7 @@ var $=__webpack_require__(0);
     bind: function(){
       var _this=this;
       $(window).on('scroll',function(){
-       console.log('我滚动了')
+
         if(_this.isShow()){
           _this.callback(_this.target);
         }        
